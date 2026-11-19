@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection — AZ Scrubs | Medical Apparel</title>
+
+    <!-- Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="shop-page">
+
+    <!-- ==========================================================================
+       Shop Header
+       ========================================================================== -->
+    <header class="navbar-wrapper">
+        <div class="nav-container">
+
+            <!-- Brand Logo -->
+            <a href="index.html" class="brand-logo" aria-label="AZ Scrubs Home">
+                <span class="logo-serif">AZ</span>
+                <span class="logo-sub">SCRUBS</span>
+            </a>
+
+            <!-- Center Links -->
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="#catalog" class="nav-link active">Collection</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <!-- Right Actions: Theme Toggle, Socials, Mobile Menu -->
+            <div class="header-actions">
+
+                <!-- Theme Toggle -->
+                <button type="button" class="action-btn theme-toggle" id="themeToggleBtn"
+                    aria-label="Toggle theme appearance" title="Toggle Appearance">
+                    <i class="fa-solid fa-moon icon-moon"></i>
+                    <i class="fa-solid fa-sun icon-sun"></i>
+                </button>
+
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/medooo1102006?cplk=MXMxdnQxajM3eTB2aA==" target="_blank"
+                    rel="noopener noreferrer" class="action-btn instagram-btn" title="Instagram" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <!-- WhatsApp (01208456362) -->
+                <a href="https://wa.me/201208456362" target="_blank" rel="noopener noreferrer"
+                    class="action-btn whatsapp-btn" title="WhatsApp: 01208456362" aria-label="WhatsApp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <!-- Mobile Drawer Toggle -->
+                <button type="button" class="mobile-toggle" id="mobileMenuBtn" aria-label="Open mobile menu">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </button>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-drawer" id="mobileDrawer">
+        <div class="drawer-header">
+            <span class="drawer-title">Menu</span>
+            <button type="button" class="drawer-close" id="closeDrawerBtn" aria-label="Close menu">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        <ul class="drawer-nav">
+            <li><a href="index.html" class="drawer-link">Home</a></li>
+            <li><a href="#catalog" class="drawer-link">The Collection</a></li>
+            <li><a href="#about" class="drawer-link">About AZ Scrubs</a></li>
+            <li><a href="#contact" class="drawer-link">Contact & Orders</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <!-- ==========================================================================
+         Collection Banner
+         ========================================================================== -->
+        <section class="shop-banner">
+            <div class="container">
+                <div class="shop-banner-header">
+                    <span class="banner-eyebrow">The 2026 Catalog</span>
+                    <h1 class="shop-heading">Engineered for Care, Tailored for Comfort</h1>
+                    <p class="shop-subheading">
+                        Explore our six signature silhouettes crafted with fluid-shield microfibers, ergonomic storage,
+                        and 4-way stretch flex. Select your size and color to order directly.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================================================
+         Product Catalog Grid (6 Medical Scrubs)
+         ========================================================================== -->
+        <section class="catalog-section" id="catalog">
+            <div class="container">
+                <div class="products-grid" id="productsGridContainer">
+                    <!-- Populated dynamically via script.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================================================
+         About AZ Scrubs Section
+         ========================================================================== -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="about-card">
+                    <div class="about-grid">
+
+                        <div class="about-text-column">
+                            <span class="about-eyebrow">Our Philosophy</span>
+                            <h2 class="about-title">Crafting Dignity & Ease for Egypt's Medical Heroes</h2>
+
+                            <p class="about-lead">
+                                AZ Scrubs was founded on a simple observation: medical professionals in Egypt endure
+                                grueling 12- to 24-hour shifts, yet they are often left with stiff, unbreathable scrubs
+                                that lose their shape after repeated autoclaving.
+                            </p>
+
+                            <p class="about-body">
+                                We developed a proprietary fabric blend combining medical-grade polyester durability,
+                                soft combed cotton breathability, and pure elastane stretch. Designed to move with you
+                                seamlessly through surgery, emergency rounds, and long clinic hours, every piece is
+                                backed by our full 14-day size replacement guarantee and delivered straight to all 27
+                                Egyptian governorates.
+                            </p>
+
+                            <div class="about-stats-row">
+                                <div class="stat-cell">
+                                    <strong class="stat-number">4-Way</strong>
+                                    <span class="stat-label">Stretch Flex Fabric</span>
+                                </div>
+                                <div class="stat-cell">
+                                    <strong class="stat-number">24–48h</strong>
+                                    <span class="stat-label">Cairo & Giza Dispatch</span>
+                                </div>
+                                <div class="stat-cell">
+                                    <strong class="stat-number">27</strong>
+                                    <span class="stat-label">Governorates Covered</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="about-visual-column">
+                            <div class="about-image-wrapper">
+                                <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=900&auto=format&fit=crop"
+                                    alt="Medical team wearing polished scrubs" loading="lazy">
+                                <div class="about-image-badge">
+                                    <span class="badge-tag">AZ Quality Standard</span>
+                                    <span class="badge-caption">Tested for Hospital Autoclave Cycles</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==========================================================================
+       Checkout & Payment Modal
+       ========================================================================== -->
+    <div class="modal-overlay" id="checkoutModalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="checkout-modal">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <div class="modal-title-group">
+                    <h3 class="modal-title" id="modalTitle">Complete Your Order</h3>
+                    <p class="modal-subtitle">Review selection and confirm via WhatsApp</p>
+                </div>
+                <button type="button" class="modal-close" id="closeModalBtn" aria-label="Close checkout modal">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <!-- Modal Body -->
+            <div class="modal-body">
+
+                <!-- Selected Product Summary Card -->
+                <div class="order-summary-box">
+                    <img src="" alt="Selected scrub thumbnail" id="modalThumb" class="summary-img">
+                    <div class="summary-details">
+                        <h4 class="summary-name" id="modalProductName">Product Name</h4>
+                        <div class="summary-meta-line">
+                            <span>Size: <strong id="modalProductSize">L</strong></span>
+                            <span class="meta-dot">&bull;</span>
+                            <span>Color: <strong id="modalProductColor">Classic Navy</strong></span>
+                        </div>
+                        <div class="summary-price" id="modalProductPrice">EGP 680</div>
+                    </div>
+                </div>
+
+                <!-- Customer Details Form -->
+                <div class="form-section">
+                    <h4 class="form-section-title">
+                        <i class="fa-solid fa-user-pen"></i>
+                        <span>Customer & Shipping Information</span>
+                    </h4>
+
+                    <!-- Full Name -->
+                    <div class="field-group">
+                        <label for="custName" class="field-label">Full Name / Medical Title <span
+                                class="req">*</span></label>
+                        <input type="text" id="custName" class="field-input" placeholder="e.g. Dr. Omar Hassan" required
+                            autocomplete="name">
+                        <span class="error-msg" id="nameError">Please enter your full name</span>
+                    </div>
+
+                    <!-- Phone & Governorate Grid -->
+                    <div class="field-row">
+                        <div class="field-group">
+                            <label for="custPhone" class="field-label">Phone / WhatsApp Number <span
+                                    class="req">*</span></label>
+                            <input type="tel" id="custPhone" class="field-input" placeholder="01xxxxxxxxx" required
+                                autocomplete="tel">
+                            <span class="error-msg" id="phoneError">Valid Egyptian phone required</span>
+                        </div>
+
+                        <div class="field-group">
+                            <label for="custGov" class="field-label">Governorate <span class="req">*</span></label>
+                            <select id="custGov" class="field-input field-select" required>
+                                <option value="">Select Governorate...</option>
+                                <option value="Cairo">Cairo</option>
+                                <option value="Giza">Giza</option>
+                                <option value="Alexandria">Alexandria</option>
+                                <option value="Dakahlia (Mansoura)">Dakahlia (Mansoura)</option>
+                                <option value="Gharbia (Tanta)">Gharbia (Tanta)</option>
+                                <option value="Sharqia (Zagazig)">Sharqia (Zagazig)</option>
+                                <option value="Qalyubia">Qalyubia</option>
+                                <option value="Monufia">Monufia</option>
+                                <option value="Beheira">Beheira</option>
+                                <option value="Kafr El Sheikh">Kafr El Sheikh</option>
+                                <option value="Damietta">Damietta</option>
+                                <option value="Port Said">Port Said</option>
+                                <option value="Ismailia">Ismailia</option>
+                                <option value="Suez">Suez</option>
+                                <option value="Fayoum">Fayoum</option>
+                                <option value="Beni Suef">Beni Suef</option>
+                                <option value="Minya">Minya</option>
+                                <option value="Asyut">Asyut</option>
+                                <option value="Sohag">Sohag</option>
+                                <option value="Qena">Qena</option>
+                                <option value="Luxor">Luxor</option>
+                                <option value="Aswan">Aswan</option>
+                                <option value="Red Sea (Hurghada)">Red Sea (Hurghada)</option>
+                                <option value="Matrouh">Matrouh</option>
+                                <option value="North & South Sinai">North & South Sinai</option>
+                                <option value="New Valley">New Valley</option>
+                            </select>
+                            <span class="error-msg" id="govError">Please select your governorate</span>
+                        </div>
+                    </div>
+
+                    <!-- Detailed Address -->
+                    <div class="field-group">
+                        <label for="custAddress" class="field-label">Detailed Address (Street, Clinic/Hospital,
+                            Building) <span class="req">*</span></label>
+                        <input type="text" id="custAddress" class="field-input"
+                            placeholder="e.g. New Maadi, El-Nasr St, Building 14" required>
+                        <span class="error-msg" id="addressError">Please provide your delivery address</span>
+                    </div>
+                </div>
+
+                <!-- Payment Instructions: Fawry & InstaPay -->
+                <div class="form-section">
+                    <h4 class="form-section-title">
+                        <i class="fa-solid fa-credit-card"></i>
+                        <span>Select Payment Method</span>
+                    </h4>
+
+                    <div class="payment-tabs">
+                        <button type="button" class="pay-tab active" id="tabInstapay"
+                            onclick="switchPayment('instapay')">
+                            <i class="fa-solid fa-bolt"></i>
+                            <span>InstaPay</span>
+                        </button>
+                        <button type="button" class="pay-tab" id="tabFawry" onclick="switchPayment('fawry')">
+                            <i class="fa-solid fa-receipt"></i>
+                            <span>Fawry</span>
+                        </button>
+                    </div>
+
+                    <!-- InstaPay Instructions Box -->
+                    <div class="pay-box active" id="instapayDetails">
+                        <div class="pay-detail-row">
+                            <span class="pay-label">InstaPay Address (IPA):</span>
+                            <div class="copy-field">
+                                <span class="copy-val" id="ipaCode">azscrubs@instapay</span>
+                                <button type="button" class="btn-copy"
+                                    onclick="copyData('ipaCode', 'InstaPay IPA copied!')" title="Copy">
+                                    <i class="fa-regular fa-copy"></i>
+                                    <span>Copy</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="pay-detail-row">
+                            <span class="pay-label">Account Holder:</span>
+                            <span class="pay-val">AZ Scrubs Apparel</span>
+                        </div>
+                        <p class="pay-hint">
+                            Open your InstaPay app, transfer the order amount to the IPA above, and attach a screenshot
+                            of the transfer confirmation in the prepared WhatsApp chat.
+                        </p>
+                    </div>
+
+                    <!-- Fawry Instructions Box -->
+                    <div class="pay-box" id="fawryDetails">
+                        <div class="pay-detail-row">
+                            <span class="pay-label">Fawry Service Code:</span>
+                            <div class="copy-field">
+                                <span class="copy-val" id="fawryService">78890</span>
+                                <button type="button" class="btn-copy"
+                                    onclick="copyData('fawryService', 'Fawry Code copied!')" title="Copy">
+                                    <i class="fa-regular fa-copy"></i>
+                                    <span>Copy</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="pay-detail-row">
+                            <span class="pay-label">Reference Number:</span>
+                            <div class="copy-field">
+                                <span class="copy-val" id="fawryRef">AZ-98124</span>
+                                <button type="button" class="btn-copy"
+                                    onclick="copyData('fawryRef', 'Reference Number copied!')" title="Copy">
+                                    <i class="fa-regular fa-copy"></i>
+                                    <span>Copy</span>
+                                </button>
+                            </div>
+                        </div>
+                        <p class="pay-hint">
+                            Pay via any Fawry POS terminal or Fawry Plus branch using service code
+                            <strong>78890</strong> and reference <strong>AZ-98124</strong>. Keep your payment receipt.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn-confirm-whatsapp" onclick="confirmOrderWhatsApp()">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span>Confirm Order via WhatsApp</span>
+                </button>
+                <span class="modal-safe-note">
+                    <i class="fa-solid fa-lock"></i>
+                    <span>Your order details are sent directly to the brand owner at 01208456362 for instant
+                        confirmation.</span>
+                </span>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Toast Notification Hub -->
+    <div class="toast-hub" id="toastHub"></div>
+
+    <!-- ==========================================================================
+       Shop Footer
+       ========================================================================== -->
+    <footer class="site-footer" id="contact">
+        <div class="container">
+            <div class="footer-grid">
+
+                <!-- Brand Bio -->
+                <div class="footer-bio-col">
+                    <a href="index.html" class="brand-logo footer-logo">
+                        <span class="logo-serif">AZ</span>
+                        <span class="logo-sub">SCRUBS</span>
+                    </a>
+                    <p class="footer-bio-text">
+                        Specialized Egyptian medical apparel combining high-stretch ergonomics, breathable comfort, and
+                        fluid protection for surgeons, doctors, dentists, and healthcare staff.
+                    </p>
+                    <div class="footer-socials">
+                        <a href="https://wa.me/201208456362" target="_blank" rel="noopener noreferrer"
+                            class="social-icon whatsapp" title="WhatsApp: 01208456362">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                        <a href="https://www.instagram.com/medooo1102006?cplk=MXMxdnQxajM3eTB2aA==" target="_blank"
+                            rel="noopener noreferrer" class="social-icon instagram" title="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-nav-col">
+                    <h4 class="footer-heading">Collection</h4>
+                    <ul class="footer-links">
+                        <li><a href="#catalog">All Medical Scrubs</a></li>
+                        <li><a href="#about">Fabric & Comfort</a></li>
+                        <li><a href="index.html">Home Overview</a></li>
+                        <li><a href="index.html#features">Shift Features</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact & Shipping -->
+                <div class="footer-contact-col">
+                    <h4 class="footer-heading">Direct Inquiries</h4>
+                    <ul class="footer-contact-list">
+                        <li>
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <a href="https://wa.me/201208456362" target="_blank"
+                                rel="noopener noreferrer">01208456362</a>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-instagram"></i>
+                            <a href="https://www.instagram.com/medooo1102006?cplk=MXMxdnQxajM3eTB2aA==" target="_blank"
+                                rel="noopener noreferrer">@medooo1102006</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-truck-fast"></i>
+                            <span>Express delivery across Egypt</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-rotate-left"></i>
+                            <span>14-day hassle-free size exchange</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Copyright Notice -->
+            <div class="footer-bottom">
+                <p class="copyright-text">&copy; 2026 AZ Scrubs. All rights reserved.</p>
+                <p class="footer-tagline">Crafted with care for healthcare professionals.</p>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>

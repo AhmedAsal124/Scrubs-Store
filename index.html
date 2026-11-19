@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AZ Scrubs — Comfort That Moves With You</title>
+
+    <!-- Typography: Cormorant Garamond (Editorial Serif) & Plus Jakarta Sans (Clean Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="home-page">
+
+    <!-- ==========================================================================
+       Navigation Bar
+       ========================================================================== -->
+    <header class="navbar-wrapper">
+        <div class="nav-container">
+
+            <!-- Left: AZ Scrubs Logo -->
+            <a href="index.html" class="brand-logo" aria-label="AZ Scrubs Home">
+                <span class="logo-serif">AZ</span>
+                <span class="logo-sub">SCRUBS</span>
+            </a>
+
+            <!-- Center: Navigation Links -->
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="shop.html" class="nav-link">Collection</a>
+                <a href="shop.html#about" class="nav-link">About</a>
+                <a href="shop.html#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <!-- Right: Action Buttons, Socials & Theme Toggle -->
+            <div class="header-actions">
+
+                <!-- Light / Dark Mode Toggle -->
+                <button type="button" class="action-btn theme-toggle" id="themeToggleBtn"
+                    aria-label="Toggle light and dark mode" title="Toggle Appearance">
+                    <i class="fa-solid fa-moon icon-moon"></i>
+                    <i class="fa-solid fa-sun icon-sun"></i>
+                </button>
+
+                <!-- Instagram Link -->
+                <a href="https://www.instagram.com/medooo1102006?cplk=MXMxdnQxajM3eTB2aA==" target="_blank"
+                    rel="noopener noreferrer" class="action-btn instagram-btn" title="Follow on Instagram"
+                    aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <!-- WhatsApp Link (01208456362) -->
+                <a href="https://wa.me/201208456362" target="_blank" rel="noopener noreferrer"
+                    class="action-btn whatsapp-btn" title="Chat on WhatsApp" aria-label="WhatsApp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <!-- Pill-Shaped CTA Button -->
+                <a href="shop.html" class="btn-pill-cta">
+                    <span>Visit Our Collection</span>
+                    <svg class="btn-arrow" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </a>
+
+                <!-- Mobile Drawer Toggle -->
+                <button type="button" class="mobile-toggle" id="mobileMenuBtn" aria-label="Open menu">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </button>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-drawer" id="mobileDrawer">
+        <div class="drawer-header">
+            <span class="drawer-title">Navigation</span>
+            <button type="button" class="drawer-close" id="closeDrawerBtn" aria-label="Close menu">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        <ul class="drawer-nav">
+            <li><a href="index.html" class="drawer-link">Home</a></li>
+            <li><a href="shop.html" class="drawer-link">Collection</a></li>
+            <li><a href="shop.html#about" class="drawer-link">About AZ Scrubs</a></li>
+            <li><a href="shop.html#contact" class="drawer-link">Contact & Orders</a></li>
+            <li class="drawer-divider"></li>
+            <li>
+                <a href="shop.html" class="btn-pill-cta drawer-cta">
+                    <span>Visit Our Collection</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- ==========================================================================
+       Split-Screen Luxury Hero Section
+       ========================================================================== -->
+    <main class="hero-section">
+        <div class="hero-container">
+
+            <!-- Left Column: Editorial Content -->
+            <div class="hero-content">
+
+                <!-- Eyebrow Subtitle -->
+                <div class="hero-eyebrow">
+                    <span class="eyebrow-dot"></span>
+                    <span>MEDICAL APPAREL &bull; MADE FOR EVERY SHIFT</span>
+                </div>
+
+                <!-- Large Elegant Headline -->
+                <h1 class="hero-heading">
+                    Comfort That Moves With You<span class="accent-period">.</span>
+                </h1>
+
+                <!-- Supporting Text -->
+                <p class="hero-paragraph">
+                    Thoughtfully designed scrubs for long shifts, busy days, and the people who care for others.
+                    Tailored with 4-way stretch flex, fluid barrier technology, and breathable softness.
+                </p>
+
+                <!-- CTA Buttons Row -->
+                <div class="hero-cta-group">
+                    <!-- Primary Explore Collection Button -->
+                    <a href="shop.html" class="btn-primary">
+                        <span>Explore the Collection</span>
+                        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="7" y1="17" x2="17" y2="7"></line>
+                            <polyline points="7 7 17 7 17 17"></polyline>
+                        </svg>
+                    </a>
+
+                    <!-- Secondary Outline Button -->
+                    <a href="shop.html#about" class="btn-outline">
+                        <span>Our Story</span>
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Scroll Indicator -->
+                <div class="hero-scroll-indicator">
+                    <div class="mouse-icon">
+                        <span class="mouse-wheel"></span>
+                    </div>
+                    <span class="scroll-label">SCROLL TO EXPLORE</span>
+                </div>
+
+            </div>
+
+            <!-- Right Column: Visual Showcase -->
+            <div class="hero-visual">
+                <div class="visual-frame">
+                    <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=1200&auto=format&fit=crop"
+                        alt="Healthcare professional wearing stylish medical scrubs in a modern architectural clinical studio"
+                        class="hero-img">
+                    <div class="visual-gradient-overlay"></div>
+
+                    <!-- Floating Editorial Pill -->
+                    <div class="floating-badge">
+                        <span class="badge-accent">AZ Collection</span>
+                        <span class="badge-separator">/</span>
+                        <span class="badge-meta">Egyptian Medical Couture</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- ==========================================================================
+       4-Item Feature Bar
+       ========================================================================== -->
+    <section class="feature-bar">
+        <div class="feature-container">
+
+            <!-- Feature 1 -->
+            <div class="feature-card">
+                <div class="feature-icon-wrap">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="feature-content">
+                    <h4 class="feature-title">Comfort All Shift</h4>
+                    <p class="feature-text">Soft, breathable fabric for busy days</p>
+                </div>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="feature-card">
+                <div class="feature-icon-wrap">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="16 3 21 3 21 8"></polyline>
+                        <line x1="4" y1="20" x2="21" y2="3"></line>
+                        <polyline points="21 16 21 21 16 21"></polyline>
+                        <line x1="15" y1="15" x2="21" y2="21"></line>
+                        <polyline points="4 8 4 3 9 3"></polyline>
+                        <line x1="9" y1="9" x2="4" y2="3"></line>
+                    </svg>
+                </div>
+                <div class="feature-content">
+                    <h4 class="feature-title">Thoughtful Fit</h4>
+                    <p class="feature-text">Designed to move with you</p>
+                </div>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="feature-card">
+                <div class="feature-icon-wrap">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                        <polyline points="2 17 12 22 22 17"></polyline>
+                        <polyline points="2 12 12 17 22 12"></polyline>
+                    </svg>
+                </div>
+                <div class="feature-content">
+                    <h4 class="feature-title">Quality Materials</h4>
+                    <p class="feature-text">Made for comfort and everyday wear</p>
+                </div>
+            </div>
+
+            <!-- Feature 4 -->
+            <div class="feature-card">
+                <div class="feature-icon-wrap">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="1" y="3" width="15" height="13"></rect>
+                        <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                        <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                        <circle cx="18.5" cy="18.5" r="2.5"></circle>
+                    </svg>
+                </div>
+                <div class="feature-content">
+                    <h4 class="feature-title">Delivery Across Egypt</h4>
+                    <p class="feature-text">From AZ Scrubs to your door</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Minimal Footer for Home -->
+    <footer class="home-footer">
+        <div class="container">
+            <div class="home-footer-inner">
+                <p>&copy; 2026 AZ Scrubs. All rights reserved.</p>
+                <a href="shop.html" class="home-footer-link">Enter Shop &rarr;</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
